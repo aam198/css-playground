@@ -1,0 +1,27 @@
+{
+  "name": "css-playground",
+  "version": "1.0.0",
+  "description": "Collection of CSS examples when using flexbox, grid, transitions etc.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aam198/css-playground.git"
+  },
+  "keywords": [],
+  "author": "Allie Martz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aam198/css-playground/issues"
+  },
+  "homepage": "https://github.com/aam198/css-playground#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
