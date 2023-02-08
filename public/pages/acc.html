@@ -8,17 +8,28 @@
     <link href="/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
   </head>
-<body>
+<body class="acc">
   <header>
     <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
     <h1>HTML/CSS Quiz</h1>
-    <nav></nav>
+    <nav>
+      <ul>
+        <li><a href="#student-info">INFO</a></li>
+        <li><a href="#html-questions">HTML</a></li>
+        <li><a href="#css-questions">CSS</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-      <section></section>
-      <section></section>
-      <section></section>
+      <section role="region" aria-labelledby="student-info"><h2 id="student-info">Student Info</h2>
+        <h2 id="student-info">Student Info</h2>
+        <div class="info"><label></label><input></input></div>
+        <div class="info"><label></label><input></input></div>
+        <div class="info"><label></label><input></input></div>
+      </section>
+      <section role="region" aria-labelledby="html-questions"><h2 id="html-questions">Html Question</h2></section>
+      <section role="region" aria-labelledby="css-questions"><h2 id="css-questions">CSS Questions</h2></section>
     </form>
   </main>
   <a href="/"><-Take me Back</a>

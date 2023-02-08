@@ -107,6 +107,12 @@ html {
 
 /* Accessibility Quiz Styling */
 
+.acc > h1, h2{
+  font-family: 'Verdana', sans-serif;
+}
 
+.acc > h2{
+  border-bottom: 4px solid #dfdfe2;
+}
 
 /* End Accessibility Quiz Styling */
