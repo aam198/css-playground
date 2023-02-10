@@ -25,6 +25,11 @@ app.get('/acc', function(req, res) {
   res.sendFile(path.join(__dirname + '/public/pages/acc.html'));
 });
 
+// SVG
+app.get('/svg', function(req, res) {
+  res.sendFile(path.join(__dirname + '/public/pages/svg.html'));
+});
+
 // 404
 app.use(function (req, res, next) {
   res.status(404);
