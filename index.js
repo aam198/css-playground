@@ -37,4 +37,4 @@ app.use(function (req, res, next) {
   res.sendFile(path.join(__dirname + '/public/pages/missing.html'));
 });
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+app.listen(PORT, () => console.log(`Server running on localhost:${PORT}`))

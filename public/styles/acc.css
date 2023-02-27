@@ -1,3 +1,8 @@
+@media (prefers-reduced-motion: no-preference){
+  *{
+    scroll-behavior: smooth;
+  }
+}
 
 *{
   box-sizing: border-box;
@@ -24,18 +29,58 @@ header {
   height: 50px;
   background-color: #0a0a23;
   display: flex;
+  justify-content: space-between;
+  align-items:center;
+  position: fixed;
+  top: 0;
 }
 
 #logo {
-  width: max(100px, 18vw);
+  width: max(100px, 10vw);
+  max-height: 50px;
   background-color: #0a0a23;
-  aspect-ratio: 35 / 4;
+  aspect-ratio: 16 / 4;
   padding: 0.4rem;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Tahoma;
 }
 
 h1 {
   color: #f1be32;
   font-size: min(5vw, 1.2em);
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 4px solid #dfdfe2;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+main {
+  padding-top: 50px;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 600px;
 }
 
 nav {
@@ -47,6 +92,12 @@ nav {
 nav > ul {
   display: flex;
   justify-content: space-evenly;
+  /* Correct overflow on small screens  */
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
 }
 
 nav > ul > li{
@@ -68,27 +119,69 @@ nav li:hover{
   cursor: pointer;
 }
 
-h1,
-h2 {
-  font-family: Verdana, Tahoma;
-}
-
-h2 {
-  border-bottom: 4px solid #dfdfe2;
-}
-
-.sr-only{
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+p{
+  margin-top: 5px;
+  padding-left: 15px;
+  font-size: 1.2rem;
 }
 
 p::before{
   content: "Question #";
+}
+
+.info {
+  padding: 10px 0px 0px 10px;
+}
+
+.info > input, .info > label {
+  display: inline-block;
+  text-align: right;
+}
+
+.info > input {
+  width: 50%;
+  text-align: left;
+}
+
+.info > label {
+  width: 10%;
+  min-width: 55px;
+}
+
+.formrow{
+  margin-top: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.question-block {
+  text-align: left;
+  display: block;
+  width:100%;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+.question {
+  border: 0;
+  padding-bottom: 0;
+}
+
+.answers-list {
+  list-style: none;
+  padding: 0;
+}
+
+.button{
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 0.7em;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #d0d0d5;
+  border: 3px solid #3b3b4f;
 }

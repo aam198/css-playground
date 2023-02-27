@@ -87,24 +87,24 @@
         <h2 id="css-questions">CSS</h2>
         <div class="formrow">
           <div class="question-block">
-            <!-- To connect to select -->
             <label for="customer">Are you a frontend developer?</label>
           </div>
           <div class="answer">
-            <select required name="customer" id="customer">
-              <option value ="">Select an option</option>
-              <option value ="yes">Yes</option>
-              <option value ="No">No</option>
+            <select name="customer" id="customer" required>
+              <option value="">Select an option</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
           </div>
           <div class="question-block">
-            <label for="textInput">Do you have any questions:</label>
+            <label for="css-questions">Do you have any questions:</label>
           </div>
           <div class="answer">
-            <textarea name="textInput" id="textInput" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
+            <textarea id="css-questions" name="css-questions" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
           </div>
         </div>
       </section>
-      <input type="submit" value="Send">
+      <input class="button" type="submit" value="Send">
     </form>
   </main>
   <a href="/"><-Take me Back</a>
