@@ -31,6 +31,11 @@ app.get('/svg', function(req, res) {
   res.sendFile(path.join(__dirname + '/public/pages/svg.html'));
 });
 
+// SVG-Map route
+app.get('/svgMap', function(req, res) {
+  res.sendFile(path.join(__dirname + '/public/pages/svgMap.html'));
+});
+
 // 404 route
 app.use(function (req, res, next) {
   res.status(404);
