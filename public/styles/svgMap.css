@@ -1,0 +1,44 @@
+#mapsection {
+  width: 50%;
+  height: auto;
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 2;
+}
+#mali {
+  fill: brown;
+}
+
+#Benin {
+  fill: #00baba;
+}
+
+#Nigeria {
+  fill: yellow;
+}
+
+#Zimbabwe {
+  fill: brown;
+}
+
+#Zambia {
+  fill: green;
+}
+
+#Somalia {
+  fill: darkseagreen;
+}
+
+#Mali {
+  fill: gray;
+}
+
+path {
+  fill: #1da1f2;
+}
+path:hover {
+  fill: purple;
+  stroke: red;
+  stroke-width: 3px;
+  transition: fill 0.4s;
+}
