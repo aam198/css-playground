@@ -13,6 +13,13 @@
   fill: blue;
 }
 
+#Burkina_Faso:hover{
+  fill: purple;
+}
+#Elfenbeinkueste{
+  fill: yellow;
+}
+
 #Benin {
   fill: #00baba;
 }
