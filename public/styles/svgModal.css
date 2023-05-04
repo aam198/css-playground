@@ -18,3 +18,25 @@ svg{
   height: 600px;
   width: 80%;
 }
+
+#redirectBox:hover rect{
+  cursor: pointer;
+  fill: #e79405;
+  opacity: 0.5;
+}
+
+#Rectangle_5_copy rect{
+  transition: 0.2s ease-in-out;
+}
+
+#Rectangle_5_copy:hover rect{
+  /* fill: #e79405; */
+  stroke: #e79405;
+}
+/* 
+#Rectangle_5_copy:hover rect, #Redirecting_or_Reorienting:hover text{ */
+  /* fill: #e79405; */
+  /* stroke: #e79405;
+  opacity: 0.5;
+} */
+
