@@ -1,3 +1,10 @@
+:root{
+  --orange: #e79405;
+  --yellow: #f4b30d;
+  --green: #3ab17b;
+  --red: #dd493b;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -19,24 +26,31 @@ svg{
   width: 80%;
 }
 
-#redirectBox:hover rect{
+#redirectBox rect, #redirectBox {
   cursor: pointer;
-  fill: #e79405;
-  opacity: 0.5;
-}
-
-#Rectangle_5_copy rect{
   transition: 0.2s ease-in-out;
 }
 
-#Rectangle_5_copy:hover rect{
-  /* fill: #e79405; */
-  stroke: #e79405;
-}
-/* 
-#Rectangle_5_copy:hover rect, #Redirecting_or_Reorienting:hover text{ */
-  /* fill: #e79405; */
-  /* stroke: #e79405;
+#redirectBox:hover rect{
+  cursor: pointer;
+  fill: var(--orange);
   opacity: 0.5;
-} */
+}
 
+#tuningBox:hover rect{
+  cursor: pointer;
+  fill: var(--orange);
+  opacity: 0.5;
+}
+
+#adaptingBox:hover rect{
+  cursor: pointer;
+  fill: var(--orange);
+  opacity: 0.5;
+}
+
+#overhaulBox:hover rect{
+  cursor: pointer;
+  fill: var(--orange);
+  opacity: 0.5;
+}
