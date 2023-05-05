@@ -39,18 +39,18 @@ svg{
 
 #tuningBox:hover rect{
   cursor: pointer;
-  fill: var(--orange);
+  fill: var(--green);
   opacity: 0.5;
 }
 
 #adaptingBox:hover rect{
   cursor: pointer;
-  fill: var(--orange);
+  fill: var(--yellow);
   opacity: 0.5;
 }
 
 #overhaulBox:hover rect{
   cursor: pointer;
-  fill: var(--orange);
+  fill: var(--red);
   opacity: 0.5;
 }
