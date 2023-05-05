@@ -28,7 +28,10 @@ svg{
 
 #redirectBox rect, #redirectBox {
   cursor: pointer;
-  transition: 0.2s ease-in-out;
+  -webkit-transition: fill .5s ease-in-out;
+	-moz-transition: fill .4s ease-in-out;
+	-o-transition: fill .4s ease-in-out;
+	transition: fill .5s ease-in-out;	 
 }
 
 #redirectBox:hover rect{
@@ -53,4 +56,10 @@ svg{
   cursor: pointer;
   fill: var(--red);
   opacity: 0.5;
+}
+
+#overhaulBox:focus{
+  stroke: black;
+  stroke-width: 5;
+  paint-order: stroke;
 }
