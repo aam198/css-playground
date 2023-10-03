@@ -2,16 +2,22 @@
   box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
-.parent{
-  background-color: #23424A;
-  padding: 50px;
+.container {
+  background: #23424a;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 2em;
 }
 
-.child {
-  background-color: #38cfd9;
-  height: 250px;
+.intro-content{
+  width: 50%;
 }
