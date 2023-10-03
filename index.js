@@ -41,6 +41,11 @@ app.get('/svgModal', function(req, res) {
   res.sendFile(path.join(__dirname + '/public/pages/svgModal.html'));
 });
 
+// CSS Course route
+app.get('/course', function(req, res) {
+  res.sendFile(path.join(__dirname + '/public/pages/course.html'));
+});
+
 // 404 route
 app.use(function (req, res, next) {
   res.status(404);
