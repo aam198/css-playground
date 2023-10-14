@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 *{
   box-sizing: border-box;
 }
 
+html{
+  font-size: 16px;
+}
 
 body {
   margin: 0;
@@ -38,3 +43,42 @@ body {
 }
 
 
+.challenge-3{
+  background-color: #23424A;
+  color: #ffffff;
+}
+
+.content{
+  width: 75%;
+  padding: 7rem 6rem;
+}
+
+.content h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0;
+
+}
+
+.content p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.content button{
+  background-color: #38CFD9;
+  color: #23424A;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.3125rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+}
