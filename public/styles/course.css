@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
+
+
 *{
   box-sizing: border-box;
 }
 
 html{
-  font-size: 16px;
+  font-size: 100%;
 }
 
 body {
@@ -70,7 +72,60 @@ body {
   padding-bottom: 2rem;
 }
 
+.hero__text h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 4rem;
+}
+
 .content button{
+  background-color: #38CFD9;
+  color: #23424A;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.3125rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+}
+
+/* Flexbox Challenge 1 */
+
+
+.hero{
+  background-color: #23424A;
+  color: #ffffff;
+}
+
+.hero-container {
+  max-width: 900px;
+  width: 75%;
+  padding: 3rem 6rem;
+}
+
+.hero__text h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 4rem;
+}
+
+.hero__text p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.3;
+  padding-bottom: 2rem;
+}
+
+.btn{
+  text-decoration: none;
   background-color: #38CFD9;
   color: #23424A;
   font-family: 'Roboto', sans-serif;
