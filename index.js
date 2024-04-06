@@ -46,6 +46,11 @@ app.get('/course', function(req, res) {
   res.sendFile(path.join(__dirname + '/public/pages/course.html'));
 });
 
+// Web Component route
+app.get('/wc', function(req, res) {
+  res.sendFile(path.join(__dirname + '/public/pages/wc.html'));
+});
+
 // 404 route
 app.use(function (req, res, next) {
   res.status(404);
