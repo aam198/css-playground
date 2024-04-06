@@ -11,7 +11,7 @@ const recogRect = document.getElementById('recogRect');
 
 
 recogArrow.addEventListener('click', () => {
-   recogRect.style.transition ="height 2s ease";
+  recogRect.style.transition ="height 2s ease";
     recogRect.style.height= "250px";
 
 })

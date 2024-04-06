@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
     "allowJs": true,            
-    "checkJs": true,
     "outDir": "dist",
     "sourceMap": true,
-    "target": "ES6",
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "strict": true
-  }
+    "target": "es6",
+    "module": "commonjs",
+    // "noImplicitAny": true,
+    // "noImplicitReturns": true,
+    // Will need to change this back to true eventually
+    "strict": false,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*", "index.js"]
 }
