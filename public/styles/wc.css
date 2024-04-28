@@ -1,0 +1,16 @@
+
+
+
+blockquote{
+  font-style: italic;
+  color: #ffffff;
+  padding: 1em calc(1.5em + .5vw);
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.05rem;
+  line-height: 1.65rem;
+  border-radius: 11px;
+  background: linear-gradient(to bottom right,#254655 0,#112831 100%);
+  
+  border-left: 11px solid var(--article-blockquote-border,#405c6e);
+}
