@@ -46,6 +46,11 @@ nav a, .button-home {
   transition: .2s ease-in;
 }
 
+.button-home{
+  background-color: #adb5bd;
+
+}
+
 nav a:hover, .button-home:hover {
   background-color: #333;
   color: #fff;

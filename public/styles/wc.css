@@ -1,8 +1,11 @@
 
+.wc-1{
 
+}
 
 blockquote{
   width: 50%;
+  min-width: 20rem;
   font-style: italic;
   color: #ffffff;
   padding: 1em calc(1.5em + .5vw);
