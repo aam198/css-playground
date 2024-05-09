@@ -1,7 +1,4 @@
 
-/* .wc-1{
-
-} */
 
 blockquote{
   width: 50%;
@@ -17,4 +14,18 @@ blockquote{
   background: linear-gradient(to bottom right,#254655 0,#112831 100%);
   
   border-left: 11px solid var(--article-blockquote-border,#405c6e);
+}
+
+.wc-3{
+  --tw-space-y-reverse: 0;
+  width: 900px;
+  margin: 0 auto;
+  margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));
+  padding: 1rem;
+}
+
+.card-container{
+  border: 1px solid;
+  border-color: rgb(212 212 216 / 1);
+  border-radius: 0.4rem;
 }
