@@ -1,4 +1,9 @@
 
+h1.page-title{
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 2.4rem;
+}
 
 blockquote{
   width: 50%;
