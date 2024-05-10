@@ -13,14 +13,17 @@ h1.page-title, section h2{
   font-weight: 700;
 }
 
-section.wc-1{
-  margin: 1rem 2rem;
+section{
+  margin: 0 auto;
+  max-width: 62rem;
 }
 
-.wc-1 h2{
+section h2{
   font-size: 2rem;
 }
+
 .wc-1 blockquote{
+  margin: 0;
   width: 70%;
   min-width: 20rem;
   font-style: italic;
