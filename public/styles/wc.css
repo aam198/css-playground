@@ -1,21 +1,34 @@
 
-h1.page-title{
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+
+
+
+h1.page-title, section h2{
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
   padding: 1rem 0;
-  font-size: 2.4rem;
+  font-size: 2.6rem;
+  font-weight: 700;
 }
 
-blockquote{
-  width: 50%;
+section.wc-1{
+  margin: 1rem 2rem;
+}
+
+.wc-1 h2{
+  font-size: 2rem;
+}
+.wc-1 blockquote{
+  width: 70%;
   min-width: 20rem;
   font-style: italic;
   color: #ffffff;
-  padding: 1em calc(1.5em + .5vw);
-  margin-left: 1.6rem;
-  margin-right: 1.6rem;
-  font-size: 1.2rem;
-  line-height: 1.65rem;
-  border-radius: 11px;
+  padding: 2rem calc(1.5rem + .5vw);
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  border-radius: 1rem;
   background: linear-gradient(to bottom right,#254655 0,#112831 100%);
   
   border-left: 11px solid var(--article-blockquote-border,#405c6e);
