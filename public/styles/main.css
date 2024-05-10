@@ -19,7 +19,7 @@ nav {
   display: flex;
   justify-content:center;
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 nav ul {
   list-style: none;
@@ -29,17 +29,14 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-right: 20px;
+  margin: 0.6rem 0;
 }
 
-nav li:last-child {
-  margin-right: 0;
-}
 
 /* Button Included  */
 
 nav a, .button-home {
-  padding: 1rem 0.8rem;
+  padding: 0.6rem 0.8rem;
   border-radius: 0.25rem;
   text-decoration: none;
   color: #333;
@@ -48,7 +45,7 @@ nav a, .button-home {
 
 .button-home{
   background-color: #adb5bd;
-
+  margin:2rem 1rem;
 }
 
 nav a:hover, .button-home:hover {
@@ -161,16 +158,6 @@ nav a:hover, .button-home:hover {
 
 /* End Nutrition Label */
 
-/* Accessibility Quiz Styling */
 
-.acc > h1, h2{
-  font-family: 'Verdana', sans-serif;
-}
-
-.acc > h2{
-  border-bottom: 4px solid #dfdfe2;
-}
-
-/* End Accessibility Quiz Styling */
 
 /* Border-left-note */
