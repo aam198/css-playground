@@ -46,15 +46,28 @@ section h2{
 }
 
 .card-container{
+  display: flex;
   border: 1px solid;
   border-color: rgb(212 212 216 / 1);
   border-radius: 0.4rem;
 }
 
-.main-card{
+.main-card-content{
   margin: 1rem;
 }
 
+.card-code-example{
+  background: #08090a;
+  color: #f8f8f2;
+  border-radius: 0.375rem;
+  padding: 1.25rem 1.3rem;
+
+}
 .card-code-example pre{
   white-space: pre-wrap;
+}
+
+.grey-border-left{
+  border-left: 1px;
+  border-color: rgb(212 212 216);
 }
